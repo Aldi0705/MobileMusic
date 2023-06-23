@@ -57,11 +57,14 @@ class _lagufavorit extends State<lagufavorit> {
                         fontSize: 16,
                       ),
                     ),
-                    Text(
-                      data.subtitle,
-                      style: TextStyle(
-                        color: Colors.grey,
-                        fontSize: 14,
+                    Container(
+                      margin: EdgeInsets.only(bottom: 5, top: 5),
+                      child: Text(
+                        data.subtitle,
+                        style: TextStyle(
+                          color: Colors.grey,
+                          fontSize: 14,
+                        ),
                       ),
                     ),
                     Text(
